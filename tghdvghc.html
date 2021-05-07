@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+    
+    .box{
+      background-color: black;
+    opacity: .40;
+top:0px;
+    position: sticky;
+    
+    }
+ 
+    .box ul li{
+       display: flex;
+       flex-direction: row;
+       text-align: center;
+       text-decoration: none;
+       padding: 20px 20px;
+       color: white;
+    }
+    .box ul li:hover{
+        
+        cursor: pointer;
+
+    }
+    .box ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 350px;
+        background:transparent;
+    }
+   body{
+       background: url('images/h.jpg');
+   }
+  
+    .form h1 {
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 40px 0;
+        color: royalblue;
+    }
+    
+ 
+    
+    .form input {
+        font-size: 16px;
+        padding: 15px 10px;
+        width: 100%;
+        border: 0;
+        border-radius: 5px;
+        outline: none;
+    }
+.but{
+    padding: 20px 20px;
+    margin: 30px;
+}
+    </style>
+</head>
+<body>
+ 
+   <section id="home">
+       <div class="box">
+           
+       <ul>
+               <li>Home</li>
+               <li>About us</li>
+               <li>Services</li>
+               <li>Contact us</li>
+           </ul>
+       </div>
+       <form action="" class="form">
+           <h1>Registration Form</h1>
+           <div>
+               Name:<input type="text" placeholder="Enter your name">
+           </div>
+           <div>
+            Email:<input type="Email" placeholder="Enter your Email">
+        </div>
+        <div>
+            Password:<input type="Password" placeholder="Enter your Password">
+        </div>
+        <div>
+            Date:<input type="Date" placeholder="">
+            <button class="but">Register Now!</button>
+        </div>
+       </form>
+   </section>
+ 
+</body>
+</html>
